@@ -1,7 +1,8 @@
 <?php
-	require_once 'CheckSignature.class.php';
-	require_once 'OnOfficeUnlockProviderIFrame.php';
 
-	$pOnOfficeUnlockProviderIFrame = new OnOfficeUnlockProviderIFrame();
+require __DIR__ . '/../../vendor/autoload.php';
 
-	$pOnOfficeUnlockProviderIFrame->createHtmlCode();
+use onOffice\MarketplaceExamples\ProviderUnlock\OnOfficeUnlockProviderIFrame;
+
+$iframe = new OnOfficeUnlockProviderIFrame();
+$iframe->createHtmlCode();

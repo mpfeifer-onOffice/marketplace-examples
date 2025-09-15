@@ -1,10 +1,12 @@
 <?php
 
+use onOffice\MarketplaceExamples\Shop\CheckUrlSignature;
+
 /**
  * Sample for the marketplace services page to test buying of products
  */
 
-require_once 'CheckUrlSignature.class.php';
+require __DIR__ . '/../../vendor/autoload.php';
 
 main();
 

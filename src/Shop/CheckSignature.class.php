@@ -1,5 +1,7 @@
 <?php
 
+namespace onOffice\MarketplaceExamples\Shop;
+
 /**
  * script to show how signature check can be made
  */

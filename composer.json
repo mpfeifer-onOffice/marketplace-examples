@@ -1,0 +1,11 @@
+{
+    "name": "onoffice/marketplace-examples",
+    "description": "Examples for the integration into the onOffice Marketplace for providers",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "onOffice\\MarketplaceExamples\\": "src"
+        }
+    }
+}

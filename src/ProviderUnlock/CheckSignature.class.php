@@ -1,5 +1,7 @@
 <?php
 
+namespace onOffice\MarketplaceExamples\ProviderUnlock;
+
 /**
  * script to show how signature check can be made
  */
